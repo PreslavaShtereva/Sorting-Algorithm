@@ -6,7 +6,8 @@ void selection_sort(int arr[]);
  
 int main() {
 	int arr[ARR_LEN] = { 7, 21, 3, 47, 101, 9, 55, 8, 41, 31 };
- 
+
+	printf("Unsorted array: ");
 	for (int i = 0; i < ARR_LEN; i++)
 		printf("%d ", arr[i]);
  
@@ -34,7 +35,7 @@ void selection_sort(int arr[]) {
 		}
 	}
  
-
+	printf("Sorted array: ");
 	for (int i = 0; i < ARR_LEN; i++)
 		printf("%d ", arr[i]);
  
