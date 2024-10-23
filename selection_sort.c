@@ -20,7 +20,7 @@ int main() {
  
 void selection_sort(int arr[]) {
 	for (int i = 0; i < ARR_LEN - 1; i++) { 
-		int min_idx = i; // Assume the current element is the minimum.
+		int min_idx = i; 
 
 		for (int j = i + 1; j < ARR_LEN; j++) {
 			if (arr[j] < arr[min_idx]) {
